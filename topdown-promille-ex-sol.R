@@ -13,7 +13,7 @@
 #' @param drinking_time start and end date and time of alcohol consumption as a
 #' sorted POSIXct vector
 #' @param drinks vector or list with number of consumed drinks (possible drink
-#' types/names: "massn", "hoibe", "wein" and "schnaps")
+#' types/names: "massn", "hoibe", "wein", "schnaps")
 #'
 #' @return blood alcohol concentration (in per-mille)
 #' @export
