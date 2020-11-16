@@ -99,7 +99,7 @@ compute_total_body_water <- function(age, sex, height, weight) {
   )
 }
 
-# compute blood alcohol concentration in per-mille
+# computing blood alcohol concentration in per-mille
 compute_alcohol_concentration <- function(alcohol_mass, total_body_water) {
   concentration <- (0.8 * alcohol_mass) / (1.055 * total_body_water)
 }
